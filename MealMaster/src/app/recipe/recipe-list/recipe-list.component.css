@@ -1,0 +1,48 @@
+/* Contenedor principal de las recetas */
+.recipes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cuadrícula adaptable */
+    gap: 1.5rem;
+    padding: 2rem;
+    justify-items: center;
+  }
+  
+  /* Tarjeta individual de receta */
+  .recipe-card {
+    width: 100%;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .recipe-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Imagen de la receta */
+  .recipe-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #ff8c00; /* Línea decorativa debajo de la imagen */
+  }
+  
+  /* Título de la receta */
+  .recipe-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  /* Instrucciones de la receta */
+  .recipe-instructions {
+    font-size: 0.95rem;
+    color: #555;
+    padding: 0 1rem 1.5rem;
+    text-align: left;
+    line-height: 1.5;
+  }
+  

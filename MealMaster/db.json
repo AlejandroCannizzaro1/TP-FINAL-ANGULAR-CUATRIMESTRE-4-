@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "profileImage": "https://example.com/image.jpg",
+      "bio": "I'm a professional chef",
+      "password": "123",
+      "userPlan": "premium"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "profileImage": "https://example.com/image2.jpg",
+      "bio": "I'm an aspiring home cook",
+      "password": "456",
+      "userPlan": "basic"
+    },
+    {
+      "id": "85ac",
+      "name": "Julieta",
+      "email": "julieta@example.com",
+      "password": "123",
+      "userPlan": "premium"
+    },
+    {
+      "id": "de56",
+      "name": "marta",
+      "email": "marta@example.com",
+      "password": "123",
+      "userPlan": "premium"
+    },
+    {
+      "id": "dc2f",
+      "name": "juan",
+      "email": "juan@example.com",
+      "password": "123",
+      "userPlan": "premium"
+    },
+    {
+      "id": "366c",
+      "name": "luis",
+      "email": "luis@example.com",
+      "password": "123",
+      "userPlan": "basic"
+    }
+  ]
+}

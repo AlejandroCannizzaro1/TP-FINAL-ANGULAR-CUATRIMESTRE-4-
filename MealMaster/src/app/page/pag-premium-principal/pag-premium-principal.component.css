@@ -1,0 +1,44 @@
+/* Contenedor principal */
+.home-container {
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.side-images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Estilo para las imagenes */
+.food-image {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+h1 {
+font-family: 'Playfair Display', serif;
+font-size: 36px;
+color: #6D4C41; /* Naranja cálido para combinar con el resto de la página */
+font-weight: bold;
+text-align: center;
+margin-top: -20px;
+}
+
+.inspirational-text {
+font-family: 'Cormorant';
+font-size: 18px;
+color: #6D4C41; /* Marrón cálido para complementar el título */
+font-weight: bold;
+font-style: italic;
+text-align: center;
+margin-top: 10px;
+}
+
+

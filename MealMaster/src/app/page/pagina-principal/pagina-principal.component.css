@@ -1,0 +1,39 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+  .home-container h1 {
+    font-size: 2.5rem;
+    color: #ff8c00;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .home-container p {
+    font-size: 1.2rem;
+    font-family: 'Cormorant';
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .images-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+  }
+
+  .food-image {
+    width: 250px; /* Aumenta el ancho */
+    height: 250px; /* Aumenta la altura */
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.food-image:hover {
+  transform: scale(1.05); /* Agrega un efecto de zoom al pasar el mouse */
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap');
+
+/* Contenedor Principal */
+.home-container {
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+  padding: 50px;
+  margin: 40px auto; /* Añade espacio superior */
+  background-color: #f9f4ef; /* Fondo beige claro */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título Principal */
+.home-container h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #d07a50; /* Terracota cálido */
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+/* Texto Inspirador */
+.inspirational-text {
+  font-family: 'Cormorant', serif;
+  font-size: 18px;
+  color: #d07a50; /* Terracota cálido */
+  font-weight: bold; /* Negrita */
+  font-style: italic; /* Cursiva */
+  text-align: center;
+  margin-top: 15px;
+}
+
+
+/* Contenedor de Imágenes de Lado */
+.side-images {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding: 1rem 0;
+  justify-content: center;
+}
+
+/* Estilo para las Imágenes */
+.food-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.food-image:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,39 @@
+<div class="recipe-filter-container">
+  <h2>Filter Recipes by Ingredient</h2>
+
+  <form (ngSubmit)="searchRecipes()">
+    <div>
+      <label for="ingredient">Main Ingredient:</label>
+      <input
+        type="text"
+        id="ingredient"
+        [(ngModel)]="ingredients"
+        name="ingredient"
+        required
+        placeholder="Enter an ingredient (e.g., chicken, tomato)"
+      />
+    </div>
+
+    <button type="submit" [disabled]="!ingredients.trim()">Search Recipes</button>
+  </form>
+
+  <button (click)="getAllRecipes()">Show All Recipes</button>
+
+  <div *ngIf="errorMessage" class="error-message">
+    <p>{{ errorMessage }}</p>
+  </div>
+
+  <div *ngIf="recipes.length > 0">
+    <h3>Recipes Found:</h3>
+    <ul>
+      <li *ngFor="let recipe of recipes">
+        <div>
+          <h4>{{ recipe.strMeal }}</h4>
+          <img [src]="recipe.strMealThumb" alt="{{ recipe.strMeal }}" />
+          <p>{{ recipe.strInstructions | slice:0:100 }}</p>
+          <button (click)="viewRecipeDetails(recipe.idMeal)">View Details</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="comments-section">
+  <h3>Comment section:</h3>
+
+  <button class="toggle-button" (click)="toggleExpand()">
+    {{ expanded ? 'Hide' : 'Show' }} Comments ({{ comments.length }})
+  </button>
+
+  <div *ngIf="expanded">
+    <ul class="comment-list">
+      <li *ngFor="let comment of comments" class="comment-item">
+        <!-- Modo edición -->
+        <div *ngIf="editingCommentId === comment.id">
+          <textarea [(ngModel)]="editedText" rows="2"></textarea>
+          <button (click)="saveEdit()">Save</button>
+          <button (click)="cancelEdit()">Cancel</button>
+        </div>
+
+        <!-- Modo visualización -->
+        <div *ngIf="editingCommentId !== comment.id">
+          <strong>{{ comment.userName }}</strong> {{ comment.comment }}
+          <small>{{ comment.date | date: 'short' }}</small>
+
+          <!-- Botones para eliminar o editar -->
+          <button *ngIf="canDeleteComment(comment)" (click)="deleteComment(comment.id)">Delete</button>
+          <button *ngIf="canDeleteComment(comment)" (click)="startEditing(comment)">Edit</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

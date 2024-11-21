@@ -1,0 +1,33 @@
+<div class="category-container">
+  <!-- Selector de categorias -->
+  <label for="categorySelect">Select a category:</label>
+  <select id="categorySelect" [(ngModel)]="selectedCategory" (change)="getRecipesFromCategory()">
+    <option value="">All categories</option>
+    <option *ngFor="let category of categoryList" [value]="category.strCategory">
+      {{ category.strCategory }}
+    </option>
+  </select>
+</div>
+
+<!-- Lista de recetas de la categoría seleccionada -->
+<div *ngIf="recipeFromCategoryList.length > 0;">
+  <ul>
+    <li *ngFor="let recipe of recipeFromCategoryList" (click)="this.addRecipesToCategoryFromJsonAndApi(this.selectedCategory)">
+      <h3>{{ recipe.strMeal }}</h3>
+      <img [src]="recipe.strMealThumb" alt="{{ recipe.strMeal }}" width="200" />
+      <!-- Botón para ver detalles de la receta -->
+      <button (click)="viewRecipeDetails(recipe.idMeal)">View Details</button>
+    </li>
+  </ul>
+</div>
+
+<ng-template #noRecipes>
+  <p>No recipes available in this category.</p>
+</ng-template>
+
+<!-- Detalles de la receta seleccionada -->
+<div *ngIf="this.recipe">
+  <h2>{{ recipe.strMeal }}</h2>
+  <img [src]="recipe.strMealThumb" alt="{{ recipe.strMeal }}" width="300" />
+  <p>{{ recipe.strInstructions }}</p>
+</div>

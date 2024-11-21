@@ -1,0 +1,103 @@
+/* Fondo general del contenedor */
+div {
+  font-family: 'Arial', sans-serif;
+  padding: 30px;
+  background-color: #605d5d;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Aumenta el ancho máximo */
+  min-height: 80vh; /* Aumenta la altura mínima para ocupar el 80% de la pantalla */
+  margin: 50px auto;
+}
+
+/* Estilo del encabezado */
+h3 {
+  font-size: 48px; /* Tamaño grande para el título */
+  color: #f6f0f0;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Ajusta inputs, selects y textarea para que ocupen más espacio horizontal */
+input, select, textarea {
+  width: 100%; /* Asegura que los elementos ocupen el 100% del contenedor */
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #333;
+}
+
+
+
+/* Estilo de etiquetas */
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #e3dddd;
+  font-weight: bold;
+}
+
+
+/* Estilo para el área de texto (instrucciones) */
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+/* Estilo del subtítulo de ingredientes */
+h4 {
+  font-size: 22px;
+  color: #f6eeee;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Estilo para los ingredientes */
+div[ngFor] {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input[placeholder="Ingredient"],
+input[placeholder="Measure"] {
+  width: calc(50% - 5px);
+}
+
+/* Estilo de botones */
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo del botón "Add Ingredient" centrado */
+button:nth-of-type(1) {
+  background-color: #e18b13;
+  margin: 0 auto 20px auto; /* Centra el botón y agrega espacio debajo */
+  display: block; /* Asegura que el botón esté centrado */
+}
+
+button:nth-of-type(1):hover {
+  background-color: #f9b519;
+}
+
+/* Estilo del botón "Save Recipe" */
+button:nth-of-type(2) {
+  width: 100%;
+  background-color: #000000;
+}
+
+button:nth-of-type(2):hover {
+  background-color: #138496;
+}

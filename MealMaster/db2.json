@@ -1,0 +1,199 @@
+{
+  "comments": [
+    {
+      "id": "a8bbb",
+      "userId": 1,
+      "idMeal": "52895",
+      "comment": "Esta receta está deliciosa, la volveré a hacer.",
+      "date": "2024-11-12T10:00:00Z"
+    },
+    {
+      "id": "aa8bb",
+      "userId": 2,
+      "idMeal": "52895",
+      "comment": "Muy fácil de preparar, y el sabor es excelente.",
+      "date": "2024-11-12T12:00:00Z"
+    },
+    {
+      "id": "a8bb",
+      "userId": 0,
+      "idMeal": "52895",
+      "comment": "Very good",
+      "date": "2024-11-12T22:28:56.143Z"
+    },
+    {
+      "id": "c730",
+      "userId": "1",
+      "idMeal": "52896",
+      "comment": "Very good!",
+      "date": "2024-11-12T23:20:44.351Z"
+    },
+    {
+      "id": "5b28",
+      "userId": "1",
+      "idMeal": "52969",
+      "comment": "hola\n",
+      "date": "2024-11-15T06:26:25.668Z"
+    },
+    {
+      "id": "3f12",
+      "userId": "2",
+      "idMeal": "52775",
+      "comment": "Excellent recipe!",
+      "date": "2024-11-17T03:54:03.522Z"
+    },
+    {
+      "id": "6704",
+      "userId": 1,
+      "idMeal": "53009",
+      "comment": "The best recipe!",
+      "date": "2024-11-17T19:40:40.958Z"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 1,
+      "idMeal": "52895",
+      "strMeal": "English Breakfast",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/utxryw1511721587.jpg",
+      "category": "Breakfast",
+      "id": "e832"
+    },
+    {
+      "userId": 1,
+      "idMeal": "52957",
+      "strMeal": "Fruit and Cream Cheese Breakfast Pastries",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/1543774956.jpg",
+      "category": "Breakfast",
+      "id": "4e47"
+    },
+    {
+      "userId": 1,
+      "idMeal": "52896",
+      "strMeal": "Full English Breakfast",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/sqrtwu1511721265.jpg",
+      "category": "Seafood",
+      "id": "c424"
+    },
+    {
+      "userId": 1,
+      "idMeal": "52967",
+      "strMeal": "Home-made Mandazi",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/thazgm1555350962.jpg",
+      "category": "Breakfast",
+      "id": "40f3"
+    },
+    {
+      "userId": 1,
+      "idMeal": "52962",
+      "strMeal": "Salmon Eggs Eggs Benedict",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/1550440197.jpg",
+      "category": "Seafood",
+      "id": "d338"
+    },
+    {
+      "id": "ywxrquwej",
+      "userId": "1",
+      "idMeal": "5306",
+      "strMeal": "Chick-Fil-A Sandwich",
+      "category": "Chicken"
+    },
+    {
+      "id": "txwbsctxs",
+      "userId": "1",
+      "idMeal": "52893",
+      "strMeal": "Apple & Blackberry Crumble",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/xvsurr1511719182.jpg",
+      "category": "Dessert"
+    },
+    {
+      "id": "daljjwif5",
+      "userId": "2",
+      "idMeal": "52939",
+      "strMeal": "Callaloo Jamaican Style",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/ussyxw1515364536.jpg",
+      "category": "Miscellaneous"
+    },
+    {
+      "id": "kzjvck5tc",
+      "userId": "2",
+      "idMeal": "52775",
+      "strMeal": "Vegan Lasagna",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/rvxxuy1468312893.jpg",
+      "category": "Vegan"
+    },
+    {
+      "id": "nvj69x3kr",
+      "userId": "2",
+      "idMeal": "53060",
+      "strMeal": "Burek",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/tkxquw1628771028.jpg",
+      "category": "Side"
+    },
+    {
+      "id": "4xgxz50j3",
+      "userId": "1",
+      "idMeal": "53080",
+      "strMeal": "Blini Pancakes",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/0206h11699013358.jpg",
+      "category": "Side"
+    }
+  ],
+  "meals": [
+    {
+      "idMeal": "5306",
+      "strMeal": "Chick-Fil-A Sandwich",
+      "strCategory": "Chicken",
+      "strInstructions": "In a small bowl, combine smoked paprika, cayenne, garlic powder, black pepper, and salt. Whisk to combine. In a different bowl, whisk the eggs with the milk, and set aside. In a separate dish, combine the flour with milk powder, baking powder, and the spice mix. To create a shaggy crust/crumbles, add 2 tablespoons of the egg milk mixture to the dry flour mixture, and rub with your fingertips until the flour mixture is coarse. In a dutch oven or a deep fryer, preheat about 2 inches (if using a dutch oven) of oil to 350°F (180°C) degrees. If you’re using a deep fryer, you need to fill enough oil to reach the “minimum” line.In a dutch oven or a deep fryer, preheat about 2 inches (if using a dutch oven) of oil to 350°F (180°C) degrees. If you’re using a deep fryer, you need to fill enough oil to reach the “minimum” line.In a dutch oven or a deep fryer, preheat about 2 inches (if using a dutch oven) of oil to 350°F (180°C) degrees. If you’re using a deep fryer, you need to fill enough oil to reach the “minimum” line.To coat your chicken like Chick-Fil-A, dip each chicken cutlet in the egg/milk mixture allowing any excess to drip off. Then, dredge the cutlets in the flour mixture pressing down firmly for it to adhere to the chicken. Shake off excess. Drop your chicken cutlets into the hot oil. Fry for 4 minutes if the oil covers the entire cutlet. If using shallow frying, fry for 3-4 minutes per side. The chicken is ready when the internal temperature registers at 165°F (74°C) degrees. Transfer to a wire rack or on paper towels then top with cheese (American, Colby Jack, or Pepper Jack). To assemble, toast the hamburger buns with some butter, spread the chick-fil-a sauce on both sides of the bun. Top with pickles, lettuce, 2 tomato slices, fried chicken, and cheese. Close the sandwich and there you have it, the best ever fried chicken sandwich that tastes even better than Chick-FilA!",
+      "ingredients": [
+        {
+          "ingredient": "Chicken Breast",
+          "measure": "1"
+        },
+        {
+          "ingredient": "Pickle Juice",
+          "measure": "1/4 cup"
+        }
+      ],
+      "userId": 1,
+      "id": "1984"
+    },
+    {
+      "idMeal": "5307",
+      "strMeal": "Biscuits",
+      "strCategory": "Dessert",
+      "strInstructions": "Step 1. Prepare oven and pan: First, preheat the oven to 450°F. Line a rimmed baking sheet with parchment paper and set it aside. Step 2. Combine ingredients: Put the flour in a large bowl and pour in the cream, stirring with a wooden spoon until the dough is combined but still a bit lumpy. Step 3. Roll out dough: Put the dough onto a lightly floured work surface and form it into a ball. Sprinkle it with more flour if it’s too sticky. Use a floured rolling pin to roll out the dough to 3/4-inch thickness. Cut it into rounds using a cutter, dipping the cutter into flour between each cut. Reroll any scraps as needed to make a dozen rounds in all. Step 4. Bake biscuits: Put the rounds on the prepared baking sheet and brush the tops of each with cream using a pastry brush. Bake in the oven until golden brown.",
+      "ingredients": [
+        {
+          "ingredient": "self-rising flour",
+          "measure": "2 cups"
+        },
+        {
+          "ingredient": "heavy cream",
+          "measure": "1 1/4 cups"
+        }
+      ],
+      "userId": 1,
+      "id": "1985"
+    },
+    {
+      "id": "f4da",
+      "idMeal": "321334",
+      "strMeal": "Smoked Mac and Cheese",
+      "strCategory": "Pasta",
+      "strArea": "American",
+      "strInstructions": "Preheat an electric smoker to 250 degrees F (120 degrees C), and add wood chips according to manufacturers’ directions. Use any wood chips that you would use for smoking meat.If prepared macaroni and cheese is not already in a heatproof dish, spoon it into a dish that can sit directly on the rack of a smoker. Divide cheese slices over the top.Place the dish directly on the rack of the smoker, and smoke until hot and bubbly, about 1 1/2 hours. Serve immediately.",
+      "ingredients": [
+        {
+          "ingredient": "Prepared macaroni and cheese",
+          "measure": "1 (20 ounce) package "
+        },
+        {
+          "ingredient": "American cheese",
+          "measure": "1 slice"
+        }
+      ],
+      "userId": "1"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<div>
+  <h3>Create a New Recipe</h3>
+  <label>
+    Recipe Name:
+    <input [(ngModel)]="recipe.strMeal" />
+  </label>
+
+  <label>
+    Category:
+    <select [(ngModel)]="recipe.strCategory">
+      <option *ngFor="let category of categories" [value]="category.strCategory">{{ category.strCategory }}</option>
+    </select>
+  </label>
+
+  <label>
+    Area:
+    <select [(ngModel)]="recipe.strArea">
+      <option *ngFor="let area of areas" [value]="area">{{ area }}</option>
+    </select>
+  </label>
+
+  <label>
+    Instructions:
+    <textarea [(ngModel)]="recipe.strInstructions"></textarea>
+  </label>
+
+  <h4>Ingredients:</h4>
+  <div *ngFor="let ingredient of recipe.ingredients; let i = index">
+    <input [(ngModel)]="ingredient.ingredient" placeholder="Ingredient" />
+    <input [(ngModel)]="ingredient.measure" placeholder="Measure" />
+    <button (click)="removeIngredient(i)">Remove</button>
+  </div>
+  <button (click)="addIngredient()">Add Ingredient</button>
+
+  <button (click)="saveRecipe()">Save Recipe</button>
+</div>

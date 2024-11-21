@@ -1,0 +1,10 @@
+<div class="payment-container">
+    <h1>Payment Process</h1>
+    <p>To complete your premium subscription, click the payment button below.</p>
+    
+    <button (click)="makePayment()" class="pay-button">Make Payment</button>
+  
+    <p *ngIf="paymentSuccess" class="success-message">Congratulations! You are now a premium user.</p>
+    <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+</div>
+

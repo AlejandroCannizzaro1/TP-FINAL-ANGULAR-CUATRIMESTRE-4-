@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cormorant:wght@400&display=swap');
+
+/* Fondo general con degradado en tonos naranjas y beiges */
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cormorant', serif;
+    color: #4E342E; /* Marrón oscuro para el texto */
+    background: linear-gradient(to bottom, #FFEDD5, #FFD7A3, #FFB385, #FF8A65); /* Degradado cálido */
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Barra de navegación en tono naranja translúcido */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    background-color: rgba(255, 165, 85, 0.8); /* Naranja translúcido */
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-bottom: 4px solid #FF7043; /* Borde vibrante */
+}
+
+.navbar a {
+    font-family: 'Playfair Display', serif;
+    color: #4E342E; /* Marrón oscuro */
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+    padding: 5px 10px;
+}
+
+.navbar a:hover {
+    color: #BF360C; /* Naranja profundo en el hover */
+    transform: scale(1.1);
+}
+
+/* Botón de Log Out con tonos naranjas */
+button {
+    background-color: #FFE0B2; /* Naranja pastel suave */
+    color: #6D4C41;
+    border: 2px solid #FF7043;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #FF7043; /* Tono vibrante en el hover */
+    color: #FFFFFF;
+    transform: scale(1.05);
+}
+
+/* Icono de corona */
+.crown-icon {
+    font-size: 18px;
+    color: gold;
+    margin-left: 10px;
+}
+
+/* Títulos y textos */
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #4E342E; /* Marrón oscuro */
+    font-size: 42px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    color: #8D6E63; /* Marrón medio */
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/* Estilos de input para formulario */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #FFB385;
+    border-radius: 8px;
+    background-color: #FFF3E0; /* Fondo beige claro */
+    color: #4E342E;
+    font-size: 16px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #FF7043; /* Naranja vibrante al enfocar */
+    outline: none;
+}
+
+
+

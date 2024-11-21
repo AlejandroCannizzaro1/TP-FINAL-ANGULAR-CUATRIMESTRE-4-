@@ -1,0 +1,38 @@
+<div class="recipe-details-container">
+  <h2>{{ recipeDetails.strMeal }}</h2>
+  <img [src]="recipeDetails.strMealThumb" alt="{{ recipeDetails.strMeal }}">
+
+  <p><strong>Category:</strong> {{ recipeDetails.strCategory }}</p>
+  <p><strong>Area:</strong> {{ recipeDetails.strArea }}</p>
+
+  <div class="instructions">
+    <p><strong>Instructions:</strong></p>
+    <p>{{ recipeDetails.strInstructions }}</p>
+  </div>
+
+  <h3>Ingredients:</h3>
+  <ul class="ingredients-list">
+    <li *ngFor="let ingredient of getIngredients()" class="ingredient-item">
+      {{ ingredient }}
+    </li>
+  </ul>
+
+  <!--button (click)="goBack()">Back to favorites</!--button-->
+  <!-- Botón para agregar a favoritos -->
+  <button *ngIf="!isFavorite" (click)="addToFavorites()">Add to favorites</button>
+  <button *ngIf="isFavorite" disabled>This recipe is already in your favorites list </button>
+</div>
+
+
+<!-- Agregar la sección de comentarios aquí -->
+<app-comment [comments]="comments" [recipeId]="recipeId"></app-comment>
+
+<!-- Formulario de nuevo comentario -->
+<div class="comment-form">
+  <h3>Leave a Comment:</h3>
+  <form [formGroup]="commentForm" (ngSubmit)="addComment()">
+    <textarea formControlName="comment" rows="4" placeholder="Write your comment..." required></textarea>
+    <br />
+    <button type="submit" [disabled]="commentForm.invalid">Submit</button>
+  </form>
+</div>

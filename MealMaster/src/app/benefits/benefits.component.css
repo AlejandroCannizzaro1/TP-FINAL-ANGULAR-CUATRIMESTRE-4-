@@ -1,0 +1,69 @@
+.benefits-container {
+  text-align: center;
+  background-color: #fff3e0; /* Fondo beige claro */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  color: #000; /* Texto en color negro */
+  margin-top: 50px;
+}
+
+.benefits-container h1 {
+  color: #000; /* Negro */
+  font-size: 2.2em;
+  margin-bottom: 15px;
+  font-weight: bold; /* Texto en negrita */
+}
+
+.benefits-container p {
+  color: #000; /* Negro */
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  font-weight: bold; /* Texto en negrita */
+}
+
+.benefits-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #000; /* Negro */
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: bold; /* Texto en negrita */
+}
+
+.benefits-list li {
+  margin: 10px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.benefits-list li::before {
+  content: '✔️';
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+  font-size: 1.2em;
+  color: #000; /* Negro */
+}
+
+.upgrade-button {
+  background-color: #43a047; /* Verde esmeralda */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.upgrade-button:hover {
+  background-color: #2e7d32; /* Verde más oscuro para hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}

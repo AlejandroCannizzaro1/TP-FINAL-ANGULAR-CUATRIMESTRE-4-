@@ -1,0 +1,88 @@
+/* Estilos para el contenedor general */
+.recipes-container {
+  margin: 40px auto; /* Incrementa la separación desde la barra de navegación */
+  padding: 20px;
+  max-width: 1000px; /* Aumenta el ancho máximo */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipes-title {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Estilos para la lista de recetas */
+.recipes-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recipe-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px; /* Más espacio entre elementos */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.recipe-name {
+  font-size: 1.2em; /* Aumenta el tamaño de la fuente */
+  font-weight: bold;
+  color: #333;
+}
+
+.recipe-category {
+  font-size: 1em;
+  color: #777;
+}
+
+/* Estilos para los botones de acción */
+.recipe-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.delete-btn, .view-btn {
+  padding: 10px 15px; /* Aumenta el tamaño del botón */
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+/* Botón de Eliminar */
+.delete-btn {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ff4d4d;
+}
+
+/* Botón de Ver Detalles */
+.view-btn {
+  background-color: #333; /* Un tono gris oscuro */
+  color: white;
+}
+
+.view-btn:hover {
+  background-color: #555; /* Un tono gris más claro */
+}

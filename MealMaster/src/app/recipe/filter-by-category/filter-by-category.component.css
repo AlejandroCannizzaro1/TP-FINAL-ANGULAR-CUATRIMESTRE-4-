@@ -1,0 +1,127 @@
+/* Fondo general y espaciado */
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Encabezado */
+h2 {
+  color: #0c0b0a;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Centrar el contenedor de selector de categoría */
+.category-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 30px; 
+  margin-bottom: 20px;
+}
+
+/* Estilo de la etiqueta */
+.category-container label {
+  font-weight: bold;
+  color: #6d4b3f; 
+  font-size: 1.1rem;
+}
+
+/* Estilo del selector de categoría */
+.category-container select {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  border: 2px solid #FF7043;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.category-container select:hover {
+  border-color: #FF5722;
+}
+
+
+/* Estilo de los favoritos */
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  background-color: #FFEBEE;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de las imágenes de los favoritos */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Títulos y texto */
+p {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF5722;
+  color: #f7eded;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Mensaje de no favoritos */
+/* ng-template {
+  color: #FF7043;
+  font-size: 1.2rem;
+  font-weight: bold;
+} */

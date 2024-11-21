@@ -1,0 +1,14 @@
+<div *ngIf="recipes.length > 0" class="recipes-container">
+  <h3 class="recipes-title">Your Published Recipes</h3>
+  <ul class="recipes-list">
+    <li *ngFor="let recipe of recipes" class="recipe-item">
+      <div class="recipe-info">
+        <strong class="recipe-name">{{ recipe.strMeal }}</strong> - <span class="recipe-category">{{ recipe.strCategory }}</span>
+      </div>
+      <div class="recipe-actions">
+        <button (click)="deleteRecipe(recipe.id)" class="delete-btn">Delete</button>
+        <button (click)="viewRecipeDetails(recipe.idMeal)" class="view-btn">View Details</button>
+      </div>
+    </li>
+  </ul>
+</div>

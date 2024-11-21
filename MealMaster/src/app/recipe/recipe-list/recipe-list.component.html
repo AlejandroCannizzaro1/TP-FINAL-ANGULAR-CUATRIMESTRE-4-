@@ -1,0 +1,13 @@
+<div *ngIf="recipes.length > 0; else noRecipes" class="recipes-container">
+  <div *ngFor="let recipe of recipes" class="recipe-card">
+    <img [src]="recipe.strMealThumb" alt="{{ recipe.strMeal }}" class="recipe-image">
+    <h2 class="recipe-title">{{ recipe.strMeal }}</h2>
+    <p class="recipe-instructions">{{ recipe.strInstructions }}</p>
+  </div>
+</div>
+
+<ng-template #noRecipes>
+
+</ng-template>
+
+

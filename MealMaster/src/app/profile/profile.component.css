@@ -1,0 +1,140 @@
+/* Estilo general */
+* {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+body {
+  background-color: #fbe9e7;
+}
+
+/* Contenedor principal de la página */
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 2rem;
+}
+
+/* Contenedor de perfil */
+.profile-container {
+  max-width: 500px;
+  padding: 2rem;
+  background-color: #fff7f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  color: #5d4037;
+  z-index: 1;
+}
+
+/* Contenedores de imágenes laterales */
+.side-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #ffe0b2;
+}
+
+.left-side {
+  left: -400px; /* Ajusta la posición en el lado izquierdo */
+  width: 350px; /* Tamaño del contenedor izquierdo */
+  padding: 30px; /* Espacio adicional alrededor de la imagen */
+}
+
+.right-side {
+  right: -400px; /* Ajusta la posición en el lado derecho */
+  width: 350px; /* Aumenta el tamaño del contenedor derecho */
+  padding: 30px; /* Espacio adicional alrededor de la imagen */
+}
+/* Tamaño y estilo del borde de las imágenes */
+.chef-image {
+  width: 320px;
+  height: auto;
+  border-radius: 8px;
+  border: 5px solid #6d4c41; /* Color marrón para el borde */
+}
+
+
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #6d4c41;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #6d4c41;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #bcaaa4;
+  border-radius: 8px;
+  background-color: #fff3e0;
+  margin-bottom: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button {
+  background-color: #66bb6a;
+  color: #ffffff;
+}
+
+.save-button:hover {
+  background-color: #388e3c;
+}
+
+.delete-button {
+  background-color: #e53935;
+  color: #ffffff;
+  margin-top: 1.5rem;
+}
+
+.delete-button:hover {
+  background-color: #c62828;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.loading-message {
+  text-align: center;
+  color: #6d4c41;
+  font-style: italic;
+  font-size: 1.1rem;
+}
